@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.example.pp_lab3_poved.ChainActivity">
+
+    <CheckBox
+        android:id="@+id/first_obj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="admin authoriz."
+        android:checked="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:textSize="15dp"/>
+
+    <CheckBox
+        android:id="@+id/second_obj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        android:text="user authoriz."
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:textSize="15dp"/>
+
+    <Button
+        android:clickable="true"
+        android:onClick="create"
+        android:id="@+id/create"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:text="Create"/>
+
+    <Button
+        android:clickable="false"
+        android:onClick="clear"
+        android:id="@+id/clear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:text="Clear"/>
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"/>
+
+</LinearLayout>

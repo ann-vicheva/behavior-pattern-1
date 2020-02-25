@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.example.pp_lab3_poved.MainActivity">
+
+    <Button
+        android:onClick="iterator"
+        android:id="@+id/iterator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:text="ITERATOR"/>
+
+    <Button
+        android:onClick="mediator"
+        android:id="@+id/mediator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:text="MEDIATOR"/>
+
+    <Button
+        android:onClick="listener"
+        android:id="@+id/listener"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:text="LISTENER"/>
+
+    <Button
+        android:onClick="strategy"
+        android:id="@+id/strategy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:text="STRATEGY"/>
+
+    <Button
+        android:onClick="chain"
+        android:id="@+id/chain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:text="CHAIN OF RESPONSIBILITY"/>
+
+    <Button
+        android:onClick="visitor"
+        android:id="@+id/visitor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:text="VISITOR"/>
+
+
+</LinearLayout>
